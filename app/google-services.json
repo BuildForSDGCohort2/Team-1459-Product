@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "256961167519",
+    "firebase_url": "https://punzila-6d96b.firebaseio.com",
+    "project_id": "punzila-6d96b",
+    "storage_bucket": "punzila-6d96b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256961167519:android:d643415483746f9e11e2aa",
+        "android_client_info": {
+          "package_name": "com.hero76.kasukulu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256961167519-ndcgnp6jofg3eiv9ffsnddv9go3ui5b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hero76.kasukulu",
+            "certificate_hash": "571e667d2d3b0f567b3ac4923ab8071d2f4d75fd"
+          }
+        },
+        {
+          "client_id": "256961167519-7rl2l196l2s0tkbamamj7t8fr69e275q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHIttNXsvr3iwWKS5ztieGQ52PXcGWpbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256961167519-7rl2l196l2s0tkbamamj7t8fr69e275q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256961167519:android:66d044718bc7b0e011e2aa",
+        "android_client_info": {
+          "package_name": "com.punzila.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256961167519-ergskgfaptehmk0eqego28nb9kq1e6v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.punzila.app",
+            "certificate_hash": "7b6cbbfff93af72efe14a1f5eb5aa3af5cffd457"
+          }
+        },
+        {
+          "client_id": "256961167519-7rl2l196l2s0tkbamamj7t8fr69e275q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHIttNXsvr3iwWKS5ztieGQ52PXcGWpbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256961167519-7rl2l196l2s0tkbamamj7t8fr69e275q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256961167519:android:69fdd17a20dc805e11e2aa",
+        "android_client_info": {
+          "package_name": "com.punzila.punzilateacherparent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256961167519-inh563ndmpftrvgpsjhvv48hffen1vov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.punzila.punzilateacherparent",
+            "certificate_hash": "571e667d2d3b0f567b3ac4923ab8071d2f4d75fd"
+          }
+        },
+        {
+          "client_id": "256961167519-7rl2l196l2s0tkbamamj7t8fr69e275q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHIttNXsvr3iwWKS5ztieGQ52PXcGWpbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256961167519-7rl2l196l2s0tkbamamj7t8fr69e275q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
