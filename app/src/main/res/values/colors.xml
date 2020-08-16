@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#7F70E4</color>
+    <color name="colorPrimaryDark">#7F70E4</color>
+    <color name="colorAccent">#7F70E4</color>
+
+    <color name="subTextColor">#7e7e7e</color>
+    <color name="mainBgColor">#ffffff</color>
+    <color name="hairLineColor">#d6d6d6</color>
+    <color name="mainTextColor">#000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+        <color name="app_colorPrimary">#3B8BEA</color>
+        <color name="app_colorPrimaryDark">#3B8BEA</color>
+        <color name="app_colorAccent">#4ec77f</color>
+        <color name="app_colorAccent_light">#4ec77f</color>
+
+        <color name="app_textColorPrimary">#333333</color>
+        <color name="app_textColorSecondary">#949292</color>
+
+        <color name="app_app_background">#f8f8f8</color>
+        <color name="app_view_color">#DADADA</color>
+
+        <color name="app_white">#ffffff</color>
+        <color name="app_black">#000000</color>
+
+        <color name="app_icon_color">#747474</color>
+        <color name="app_form_background">#F6F7F9</color>
+        <color name="app_color_Orange">#FF5722</color>
+        <color name="app_color_red">#C00404</color>
+        <color name="app_color_gray">#FAFAFA</color>
+        <color name="app_color_green">#4CAF50</color>
+        <color name="app_color_light_orange">#FBFAF0</color>
+        <color name="app_color_light_primary">#F6F7FB</color>
+        <color name="app_color_yellow">#FFC107</color>
+
 </resources>

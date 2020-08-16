@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="OnBoardingViewModel"
+            type="com.punzila.punzilateacherparent.ui.fragment.onboarding.OnBoardingViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_white"
+        android:id="@+id/constrainIntro"
+        tools:ignore="MissingPrefix">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/llBottom1"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:clipToPadding="false"
+            android:overScrollMode="never" />
+
+        <RelativeLayout
+            android:id="@+id/llBottom1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/app_spacing_standard">
+
+            <TextView
+                android:id="@+id/tvSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/app_font_size_normal"
+                android:onClick="@{() -> OnBoardingViewModel.navigateToAuth()}"
+                android:textColor="@android:color/black"
+                android:padding="@dimen/app_spacing_standard_new"
+                android:text="@string/onboading_skip" />
+
+            <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:dotsColor="@color/app_view_color"
+                app:dotsCornerRadius="@dimen/app_spacing_standard"
+                app:dotsSize="@dimen/app_spacing_middle"
+                app:dotsSpacing="@dimen/app_spacing_control"
+                app:dotsWidthFactor="2.5"
+                app:selectedDotColor="@color/app_colorPrimary"
+                app:progressMode="true" />
+
+            <TextView
+                android:id="@+id/tvNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/app_font_size_normal"
+                android:textColor="@color/app_colorPrimary"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/app_spacing_standard_new"
+                android:paddingEnd="@dimen/app_spacing_standard_new"
+                android:text="@string/onboarding_next" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStart"
+            android:layout_marginStart="@dimen/app_spacing_standard_new"
+            android:layout_marginEnd="@dimen/app_spacing_standard_new"
+            android:layout_marginBottom="@dimen/app_spacing_standard_new"
+            app:layout_constraintStart_toEndOf="@id/llBottom1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_gravity="center_horizontal"
+            android:onClick="@{() -> OnBoardingViewModel.navigateToAuth()}"
+            android:gravity="center_horizontal"
+            android:background="@drawable/app_bg_onboarding_btn"
+            android:backgroundTint="@color/app_colorPrimary"
+            style="@style/appBtn"
+            android:text="@string/onboarding_get_started" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
